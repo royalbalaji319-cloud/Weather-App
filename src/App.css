@@ -99,4 +99,12 @@ body {
   text-align: center;
   color: #ffcccc;
   font-weight: bold;
+
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
 }
