@@ -1,16 +1,63 @@
-# React + Vite
+#  Weather Forecast Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time weather forecasting web application built using React that displays live weather information including temperature, humidity, wind speed, and forecast details.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Live Demo
+https://weather-app-coral-nu-87.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Project Description
 
-## Expanding the ESLint configuration
+• Built a real-time weather forecasting application using React.  
+• Integrated a public weather API to fetch and display temperature, humidity, and weather conditions dynamically.  
+• Implemented asynchronous API calls using Axios.  
+• Developed a responsive and modern user interface.  
+• Deployed the application on Vercel.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+React  
+JavaScript (ES6+)  
+HTML5  
+CSS3  
+Axios  
+Vite  
+OpenWeather API  
+
+---
+
+##  Features
+
+✔ City search functionality  
+✔ Real-time weather data  
+✔ Hourly forecast  
+✔ 5-day forecast  
+✔ Responsive UI design  
+✔ Live deployment  
+
+---
+
+##  Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/royalbalaji319-cloud/Weather-App.git
+
+## 🔑 API Configuration
+
+1. Create an account at https://openweathermap.org/
+2. Generate your API key.
+3. Replace YOUR_API_KEY inside the project code.
+
+---
+
+## 📬 Contact
+
+Gamil: royalsbalaji143@gmail.com
+GitHub: https://github.com/royalbalaji319-cloud  
+Portfolio: https://balaji-akula-portfolio-ynji.vercel.app/
