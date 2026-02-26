@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.search-form input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #ff6a00;
+  color: white;
+  cursor: pointer;
+}
+
+.current-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.desc {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.extra {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.hourly-section h2,
+.daily-section h2 {
+  margin-bottom: 15px;
+}
+
+.hourly-scroll {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.hour-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.daily-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.day-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  color: #ffcccc;
+  font-weight: bold;
+}
