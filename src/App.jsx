@@ -100,7 +100,11 @@ function App() {
         </section>
       </>
     )}
+      <footer className="footer">
+  Built with ❤️ by <strong>Balaji Akula</strong>
+</footer>
   </div>
+  
 );
 }
 
